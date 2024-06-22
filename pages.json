@@ -1,0 +1,20 @@
+{
+  "pages": [
+    {
+      "title": "Nsonga Home Page",
+      "slug": "/home"
+    },
+    {
+      "title": "Nsonga Job Listing",
+      "slug": "/job-listing"
+    },
+    {
+      "title": "Nsonga About Us",
+      "slug": "/about"
+    },
+    {
+      "title": "Nsonga Job Description",
+      "slug": "/job-description/{{jobID}}"
+    }
+  ]
+}
