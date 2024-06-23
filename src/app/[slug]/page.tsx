@@ -1,12 +1,15 @@
 import fs from "fs";
 import path from "path";
+import { sectionCollectionProps } from "../components/section";
+import { FunctionComponent } from "react";
 
 interface PageProps {
   params: { slug: string };
+  sections: sectionCollectionProps;
 }
 
-const Page = ({ params }: PageProps) => {
-  const { slug } = params;
+const Page: FunctionComponent<PageProps> = ({ params, sections }) => {
+  const slug = params.slug;
   const filePath = path.resolve(process.cwd(), "pages.json");
   const jsonData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 

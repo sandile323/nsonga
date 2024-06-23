@@ -14,7 +14,15 @@
     },
     {
       "title": "Nsonga Job Description",
-      "slug": "/job-description/{{jobID}}"
+      "slug": "/job-description/{{jobID}}",
+      "sections": [
+        {
+          "sectionTypeId": "sliderLayout"
+        },
+        {
+          "sectionTypeId": "sliderLayout"
+        }
+      ]
     }
   ]
 }
