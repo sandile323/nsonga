@@ -6,7 +6,21 @@
     },
     {
       "title": "Nsonga Job Listing",
-      "slug": "/job-listing"
+      "slug": "/job-listing",
+      "sections": [
+        {
+          "sectionType": "sliderLayout",
+          "imageAlt": "This is a test image",
+          "imageSrc": "https://placehold.co/600x400",
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "Heading 1"
+            },
+            "children": "This is a paragraph"
+          }
+        }
+      ]
     },
     {
       "title": "Nsonga About Us",
@@ -17,10 +31,16 @@
       "slug": "/job-description/{{jobID}}",
       "sections": [
         {
-          "sectionTypeId": "sliderLayout"
-        },
-        {
-          "sectionTypeId": "sliderLayout"
+          "sectionType": "sliderLayout",
+          "imageAlt": "This is a test image",
+          "imageSrc": "https://placehold.co/600x400",
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "Heading 1"
+            },
+            "children": "This is a paragraph"
+          }
         }
       ]
     }

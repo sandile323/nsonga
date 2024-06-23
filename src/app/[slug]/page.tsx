@@ -1,17 +1,19 @@
 import fs from "fs";
 import path from "path";
-import { sectionCollectionProps } from "../components/section";
+import SectionCollection, { sectionCollectionProps } from "../components/section";
 import { FunctionComponent } from "react";
 
 interface PageProps {
   params: { slug: string };
-  sections: sectionCollectionProps;
+  sectionCollection: sectionCollectionProps;
 }
 
-const Page: FunctionComponent<PageProps> = ({ params, sections }) => {
+const Page: FunctionComponent<PageProps> = ({ params, sectionCollection }) => {
   const slug = params.slug;
+
   const filePath = path.resolve(process.cwd(), "pages.json");
   const jsonData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  
 
   const pageData = jsonData.pages.find(
     (page: any) => page.slug.replace("/", "") === slug
@@ -22,10 +24,13 @@ const Page: FunctionComponent<PageProps> = ({ params, sections }) => {
   }
 
   return (
-    <div>
-      <h1>{pageData.title}</h1>
-      <p>My Page: {pageData.slug}</p>
-    </div>
+    //<div>
+    //   <h1>{pageData.title}</h1>
+    //   <p>My Page: {pageData.slug}</p>
+    // </div>
+    <>
+    <SectionCollection sections={pageData.sections}/>
+    </>
   );
 };
 

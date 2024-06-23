@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import Heading, { HeadingProps } from "./Headings";
+import Heading, { HeadingProps } from "./headings";
 
 export interface paraGraphProps {
   heading?: HeadingProps;
@@ -12,7 +12,7 @@ const Paragraph: FunctionComponent<paraGraphProps> = ({
   return (
     <>
       {heading ? (
-        <Heading size={heading.size} children={heading.children} />
+        <Heading size={heading.size}>{heading.children}</Heading>
       ) : null}
       <p>{children}</p>
     </>
