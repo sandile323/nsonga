@@ -1,24 +1,22 @@
 import { FunctionComponent } from "react";
 import { section } from "../section";
 import Paragraph, { paraGraphProps } from "../paragraph";
-import Image from "next/image";
+import Picture, { ImageProps } from "../image";
 
 export interface SliderProps extends section {
-  imageSrc: string;
-  imageAlt: string;
+  image: ImageProps;
   paraGraph?: paraGraphProps;
 }
 
 const Slider: FunctionComponent<SliderProps> = ({
-  imageAlt,
-  imageSrc,
+  image,
   paraGraph,
 }) => {
   return (
-    <section>
-      <Image src={imageSrc} alt={imageAlt} />
+    <div>
+      <Picture imageSrc={image.imageSrc} imageAlt={image.imageAlt} width={image.width} height={image.height} />
       <Paragraph heading={paraGraph?.heading}>{paraGraph?.children}</Paragraph>
-    </section>
+    </div>
   );
 };
 

@@ -17,7 +17,7 @@ const SectionCollection: FunctionComponent<sectionCollectionProps> = ({
   <>
     {sections &&
       sections.map((section, index) => (
-        <div key={index}>{resolveCotentType(section)}</div>
+        <section className="p-8" key={index} >{resolveCotentType(section)}</section>
       ))}
   </>
 );
