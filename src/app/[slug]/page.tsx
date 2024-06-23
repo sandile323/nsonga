@@ -24,12 +24,12 @@ const Page: FunctionComponent<PageProps> = ({ params }) => {
   }
 
   return (
-    //<div>
-    //   <h1>{pageData.title}</h1>
-    //   <p>My Page: {pageData.slug}</p>
-    // </div>
     <>
-      <SectionCollection sections={pageData.sections} />
+      <h1>{pageData.title}</h1>
+      <p>My Page: {pageData.slug}</p>
+      {pageData?.sections && pageData?.sections.length > 0 ? (
+        <SectionCollection sections={pageData.sections} />
+      ) : null}
     </>
   );
 };
