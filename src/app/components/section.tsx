@@ -13,31 +13,22 @@ export interface section {
 
 const SectionCollection: FunctionComponent<sectionCollectionProps> = ({
   sections,
-}) => {
-  {
-    sections
-      ? sections.map((section) => {
-          resolveCotentType({ ...section });
-        })
-      : null;
-  }
-  return <></>;
-};
+}) => (
+  <>
+    {sections &&
+      sections.map((section, index) => (
+        <div key={index}>{resolveCotentType(section)}</div>
+      ))}
+  </>
+);
 
 const resolveCotentType = (section: section) => {
+  console.log(section);
   switch (section.sectionType) {
     case "twoColumnLayout":
-      return (
-        <TwoColumn {...(section as TwoColumnProps)}>
-          {section.children}
-        </TwoColumn>
-      );
-      case "sliderLayout":
-      return (
-        <Slider {...(section as SliderProps)}>
-          {section.children}
-        </Slider>
-      );
+      return <TwoColumn {...(section as TwoColumnProps)} />;
+    case "sliderLayout":
+      return <Slider {...(section as SliderProps)} />;
   }
 };
 

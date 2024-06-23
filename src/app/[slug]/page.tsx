@@ -1,8 +1,6 @@
 import fs from "fs";
 import path from "path";
-import SectionCollection, {
-  sectionCollectionProps,
-} from "../components/section";
+import SectionCollection from "../components/section";
 import { FunctionComponent } from "react";
 
 interface PageProps {
