@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { GetSitePaths } from "../utils";
+import { GetSitePaths, formatPath } from "../utils";
 import AnyCTA from "./anyCTA";
 import FacebookIcon from "./socialIcons/facebook";
 import WhatsAppIcon from "./socialIcons/whatsApp";
@@ -33,7 +33,7 @@ const Footer: FunctionComponent<FooterProps> = async ({
           {sitePaths.map((path, index) => (
             <>
               <AnyCTA key={index} type="link" title={path} link={path}>
-                {path}
+                {formatPath(path)}
               </AnyCTA>
             </>
           ))}

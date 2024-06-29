@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FunctionComponent } from "react";
-import { GetSitePaths } from "../utils";
+import { GetSitePaths, formatPath } from "../utils";
 import NsongaLogo from "./logo";
 
 const Header: FunctionComponent = async () => {
@@ -15,14 +15,12 @@ const Header: FunctionComponent = async () => {
       <ul className="flex items-center">
         {sitePaths && sitePaths.length > 0
           ? sitePaths.map((path, index) => {
-              const freindlyName =
-                path.charAt(0).toUpperCase() +
-                path.substring(1).replaceAll("-", " ").replaceAll("/", "");
-              return (
-                <li key={index}>
-                  <a href={path}>{freindlyName}</a>
-                </li>
-              );
+              if (!path.includes("/jobs-"))
+                return (
+                  <li key={index}>
+                    <a href={path}>{formatPath(path)}</a>
+                  </li>
+                );
             })
           : null}
       </ul>

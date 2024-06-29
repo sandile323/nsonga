@@ -9,7 +9,6 @@ export interface Job {
   title: string;
   description: string;
   link: string;
-  shortDescription: string;
 }
 
 export interface JobListingProps extends section {
@@ -23,7 +22,7 @@ const JobListing: FunctionComponent<JobListingProps> = ({ availableJobs }) => {
         ? availableJobs.map((job, index) => (
             <div key={index}>
               <Heading size="h2">{job.title}</Heading>
-              <Paragraph>{job.shortDescription}</Paragraph>
+              <Paragraph>{job.description}</Paragraph>
               <AnyCTA title={job.title} link={job.link} type={"link"}>
                 Learn More
               </AnyCTA>

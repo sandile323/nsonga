@@ -21,8 +21,6 @@ const Page: FunctionComponent<PageProps> = async ({ params }) => {
 
   return (
     <>
-      <h1>{pageData.title}</h1>
-      <p>My Page: {pageData.slug}</p>
       {pageData?.sections && pageData?.sections.length > 0 ? (
         <SectionCollection sections={pageData.sections} />
       ) : null}

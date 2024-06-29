@@ -48,7 +48,7 @@
             {
               "title": "string",
               "description": "string",
-              "link": "string",
+              "link": "/jobs-newjob",
               "shortDescription": "string"
             }
           ]
@@ -61,7 +61,17 @@
     },
     {
       "title": "Nsonga Job Description",
-      "slug": "/job-description/{{jobID}}"
+      "slug": "/jobs-newjob",
+      "sections": [
+        {
+          "sectionType": "JobLayout",
+          "job": {
+            "title": "string",
+            "description": "string",
+            "link": "/indeed link"
+          }
+        }
+      ]
     }
   ],
 
