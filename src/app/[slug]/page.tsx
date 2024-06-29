@@ -1,17 +1,15 @@
-import fs from "fs";
-import path from "path";
 import SectionCollection from "../components/section";
 import { FunctionComponent } from "react";
+import { GetSiteData } from "../utils";
 
 interface PageProps {
   params: { slug: string };
 }
 
-const Page: FunctionComponent<PageProps> = ({ params }) => {
+const Page: FunctionComponent<PageProps> = async ({ params }) => {
   const slug = params.slug;
 
-  const filePath = path.resolve(process.cwd(), "pages.json");
-  const jsonData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  const jsonData = await GetSiteData();
 
   const pageData = jsonData.pages.find(
     (page: any) => page.slug.replace("/", "") === slug
@@ -33,8 +31,7 @@ const Page: FunctionComponent<PageProps> = ({ params }) => {
 };
 
 export async function generateStaticParams() {
-  const filePath = path.resolve(process.cwd(), "./pages.json");
-  const jsonData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  const jsonData = await GetSiteData();
 
   const paths = jsonData.pages.map((page: any) => {
     const slug = page.slug === "/" ? "" : page.slug.replace("/", "");

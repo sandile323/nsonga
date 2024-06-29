@@ -40,7 +40,20 @@
     },
     {
       "title": "Nsonga Job Listing",
-      "slug": "/job-listing"
+      "slug": "/job-listing",
+      "sections": [
+        {
+          "sectionType": "jobListing",
+          "availableJobs": [
+            {
+              "title": "string",
+              "description": "string",
+              "link": "string",
+              "shortDescription": "string"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Nsonga About Us",
@@ -50,5 +63,40 @@
       "title": "Nsonga Job Description",
       "slug": "/job-description/{{jobID}}"
     }
-  ]
+  ],
+
+  "footer": {
+    "socialLinks": [
+      {
+        "title": "Facebook",
+        "link": "#"
+      },
+      {
+        "title": "WhatsApp",
+        "link": "#"
+      },
+      {
+        "title": "Instagram",
+        "link": "#"
+      },
+      {
+        "title": "LinkedIn",
+        "link": "#"
+      }
+    ],
+    "legalLinks": [
+      {
+        "title": "Legal Disclaimer",
+        "link": "#"
+      },
+      {
+        "title": "Privacy Policy",
+        "link": "#"
+      },
+      {
+        "title": "CopyRight",
+        "link": "#"
+      }
+    ]
+  }
 }
