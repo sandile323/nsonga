@@ -7,7 +7,7 @@ const NsongaLogo: FunctionComponent = () => {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 278 194"
       width="278"
-      height="194"
+      height="120"
       className="max-w-36 md:max-w-48"
     >
       <title>Nsonga Logo</title>

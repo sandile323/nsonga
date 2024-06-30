@@ -15,9 +15,10 @@
           "paraGraph": {
             "heading": {
               "size": "h1",
-              "children": "Heading 1"
+              "children": "Welcome to Nsonga"
             },
-            "children": "This is a paragraph"
+            "children": "Slogan or something here",
+            "className": ""
           }
         },
         {
@@ -25,15 +26,15 @@
           "image": {
             "imageAlt": "This is a test image",
             "imageSrc": "https://placehold.co/600x400",
-            "width": "600",
-            "height": "400"
+            "width": "100%",
+            "height": "100%"
           },
           "paraGraph": {
             "heading": {
               "size": "h1",
-              "children": "Heading 1"
+              "children": "OUR APPROACH"
             },
-            "children": "This is a paragraph"
+            "children": "We meticulously select candidates who seamlessly integrate with diverse organizational cultures, ensuring optimal fit and long-term success. In an era marked by intense talent competition and persistent retention challenges, Nsonga has strategically positioned itself as the premier partner for strategic talent acquisition. Our role transcends traditional recruitment; we serve as trusted advisors to hiring decision-makers, providing invaluable insights and guidance on all facets of talent acquisition and management. As organizations navigate the complexities of an ever-evolving"
           }
         }
       ]
@@ -46,8 +47,8 @@
           "sectionType": "jobListing",
           "availableJobs": [
             {
-              "title": "string",
-              "description": "string",
+              "title": "Strategic Planning, Monitoring, and Evaluation Manager",
+              "description": " This role, reporting directly to the Accounting Officer, is crucial for the development and implementation of governance processes, and the monitoring, evaluation, and reporting of organizational performance",
               "link": "/jobs-newjob",
               "shortDescription": "string"
             }
@@ -66,9 +67,9 @@
         {
           "sectionType": "JobLayout",
           "job": {
-            "title": "string",
-            "description": "string",
-            "link": "/indeed link"
+            "title": "Strategic Planning, Monitoring, and Evaluation Manager",
+            "description": "Lead strategic planning initiatives.\nDevelop and implement governance processes.\u000A Monitor, evaluate, and report on organisational performance.Formulate and assess the Annual Performance Plan (APP). Oversee the reporting cycle to ensure timely and accurate evaluations. Coordinate and assess performance information for the Annual Report. Manage financial aspects related to strategic initiatives. Oversee and mentor team members. Qualifications and Experience Required:A relevant postgraduate business qualification (NQF Level 8) or equivalent in monitoring and evaluation. Minimum of 5 years’ management experience in strategic planning, monitoring, and evaluation within a public entity or government institution. Proficient knowledge of business and management principles. Strong insight into the science and technology sector. Exceptional ability to gather, synthesize, and report information. Strong market and trend analysis capabilities.Excellent presentation and stakeholder management skills.",
+            "link": "https://za.indeed.com/job/strategic-planning-monitoring-and-evaluation-manager-50d57091a8bda931"
           }
         }
       ]

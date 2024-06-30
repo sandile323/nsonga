@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow-x: hidden;
+}
+
+.custom-shadow {
+  text-shadow: 0px 0px 2px black;
+}
+
+.min-image-two-col {
+  min-width: 55%;
+}
+
+.custom-w-job {
+  max-width: 60%;
+}
+
+.custom-w-job2 {
+  max-width: 80%;
+}
+
+a:hover {
+  color: #8a8a38;
+  text-decoration: underline;
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

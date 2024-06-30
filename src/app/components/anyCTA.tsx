@@ -7,6 +7,7 @@ interface AnyCTAProps {
   title: string;
   onClick?: () => {};
   children?: any;
+  className?: string;
 }
 
 const AnyCTA: FunctionComponent<AnyCTAProps> = ({
@@ -15,6 +16,7 @@ const AnyCTA: FunctionComponent<AnyCTAProps> = ({
   onClick,
   title,
   children,
+  className,
 }) => {
   switch (type) {
     case "btn":
@@ -24,8 +26,12 @@ const AnyCTA: FunctionComponent<AnyCTAProps> = ({
         </button>
       );
     case "link":
-      return (
-        <a href={link} title={title}>
+      return link.includes("indeed") ? (
+        <a href={link} title={title} className={className} target="_blank">
+          {children}
+        </a>
+      ) : (
+        <a href={link} title={title} className={className}>
           {children}
         </a>
       );

@@ -4,17 +4,23 @@ import Heading, { HeadingProps } from "./headings";
 export interface paraGraphProps {
   heading?: HeadingProps;
   children?: any;
+  className?: string;
+  headerClassName?: string;
 }
 const Paragraph: FunctionComponent<paraGraphProps> = ({
   heading,
   children,
+  className,
+  headerClassName,
 }) => {
   return (
     <>
       {heading ? (
-        <Heading size={heading.size}>{heading.children}</Heading>
+        <Heading size={heading.size} className={headerClassName}>
+          {heading.children}
+        </Heading>
       ) : null}
-      <p>{children}</p>
+      <p className={`${className ?? ""}`}>{children}</p>
     </>
   );
 };

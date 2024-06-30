@@ -3,9 +3,10 @@ import { FunctionComponent } from "react";
 
 export interface ImageProps {
   imageSrc: string;
-  imageAlt: string; 
+  imageAlt: string;
   width: string;
   height: string;
+  className: string;
 }
 
 const Picture: FunctionComponent<ImageProps> = ({
@@ -13,9 +14,16 @@ const Picture: FunctionComponent<ImageProps> = ({
   imageSrc,
   width = "400",
   height = "400",
+  className = "",
 }) => {
   return (
-      <img src={imageSrc} alt={imageAlt} width={width} height={height} />
+    <img
+      className={className}
+      src={imageSrc}
+      alt={imageAlt}
+      width={width}
+      height={height}
+    />
   );
 };
 

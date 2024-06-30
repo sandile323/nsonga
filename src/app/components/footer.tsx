@@ -28,59 +28,61 @@ const Footer: FunctionComponent<FooterProps> = async ({
   const sitePaths: string[] = await GetSitePaths();
   return (
     <>
-      <footer>
-        <div>
-          {sitePaths.map((path, index) => (
-            <>
-              <AnyCTA key={index} type="link" title={path} link={path}>
-                {formatPath(path)}
-              </AnyCTA>
-            </>
-          ))}
-        </div>
-        <div>
-          {socialLinks &&
-            socialLinks.length > 0 &&
-            socialLinks.map((socialLink, index) => (
-              <AnyCTA
-                type="link"
-                title={socialLink.title}
-                link={socialLink.link}
-                key={index}
-              >
-                {socialLink.title === "Facebook" ? (
-                  <>
-                    <FacebookIcon />
-                  </>
-                ) : socialLink.title === "WhatsApp" ? (
-                  <>
-                    <WhatsAppIcon />
-                  </>
-                ) : socialLink.title === "Instagram" ? (
-                  <>
-                    <InstagramIcon />
-                  </>
-                ) : socialLink.title === "LinkedIn" ? (
-                  <>
-                    <LinkedInIcon />
-                  </>
-                ) : null}
-              </AnyCTA>
+      <footer className="bg-darkishblue px-2 py-8">
+        <div className="text-white md:flex md: justify-between max-w-lg">
+          <div className="flex flex-col mb-6">
+            {sitePaths.map((path, index) => (
+              <>
+                <AnyCTA key={index} type="link" title={path} link={path}>
+                  {formatPath(path)}
+                </AnyCTA>
+              </>
             ))}
-        </div>
-        <div>
-          {legalLinks &&
-            legalLinks.length > 0 &&
-            legalLinks.map((legalLink, index) => (
-              <AnyCTA
-                key={index}
-                type="link"
-                title={legalLink.title}
-                link={legalLink.link}
-              >
-                {legalLink.title}
-              </AnyCTA>
-            ))}
+          </div>
+          <div className="flex  mb-6">
+            {socialLinks &&
+              socialLinks.length > 0 &&
+              socialLinks.map((socialLink, index) => (
+                <AnyCTA
+                  type="link"
+                  title={socialLink.title}
+                  link={socialLink.link}
+                  key={index}
+                >
+                  {socialLink.title === "Facebook" ? (
+                    <>
+                      <FacebookIcon />
+                    </>
+                  ) : socialLink.title === "WhatsApp" ? (
+                    <>
+                      <WhatsAppIcon />
+                    </>
+                  ) : socialLink.title === "Instagram" ? (
+                    <>
+                      <InstagramIcon />
+                    </>
+                  ) : socialLink.title === "LinkedIn" ? (
+                    <>
+                      <LinkedInIcon />
+                    </>
+                  ) : null}
+                </AnyCTA>
+              ))}
+          </div>
+          <div className="flex flex-col mb-6">
+            {legalLinks &&
+              legalLinks.length > 0 &&
+              legalLinks.map((legalLink, index) => (
+                <AnyCTA
+                  key={index}
+                  type="link"
+                  title={legalLink.title}
+                  link={legalLink.link}
+                >
+                  {legalLink.title}
+                </AnyCTA>
+              ))}
+          </div>
         </div>
       </footer>
     </>
