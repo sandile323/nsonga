@@ -14,12 +14,14 @@ body {
   min-width: 55%;
 }
 
-.custom-w-job {
-  max-width: 60%;
-}
+@media (min-width: 768px) {
+  .custom-w-job {
+    max-width: 60%;
+  }
 
-.custom-w-job2 {
-  max-width: 80%;
+  .custom-w-job2 {
+    max-width: 80%;
+  }
 }
 
 a:hover {

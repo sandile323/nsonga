@@ -20,7 +20,7 @@ const Paragraph: FunctionComponent<paraGraphProps> = ({
           {heading.children}
         </Heading>
       ) : null}
-      <p className={`${className ?? ""}`}>{children}</p>
+      <p className={`whitespace-pre-line ${className ?? ""}`}>{children}</p>
     </>
   );
 };

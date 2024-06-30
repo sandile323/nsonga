@@ -17,7 +17,7 @@ const JobCard: FunctionComponent<JobProps> = ({ job }) => {
         </Heading>
         <Paragraph className="mb-4">{job.description}</Paragraph>
         <AnyCTA title={job.title} link={job.link} type={"link"}>
-          Apply on indeed
+          Apply now on indeed
         </AnyCTA>
       </div>
     </>
