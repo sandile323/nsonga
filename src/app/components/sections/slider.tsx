@@ -18,7 +18,7 @@ const Slider: FunctionComponent<SliderProps> = ({ image, paraGraph }) => {
         height={image.height}
         className="w-sreen h-screen object-cover"
       />
-      <div className="custom-shadow absolute left-0 bottom-0 w-screen h-screen flex items-center justify-end flex-col pb-10 md:top-0 md:justify-start md:items-start pl-4 pt-8 bg-gradient-to-r from-[#333333] to-[rgba(51, 51, 51, 0)] ">
+      <div className="custom-shadow absolute left-0 bottom-0 w-screen h-screen flex items-center justify-center flex-col pb-10 md:top-0 md:items-start pl-4 pt-8 bg-gradient-to-r from-[#333333] to-[rgba(51, 51, 51, 0)] ">
         <Paragraph
           heading={paraGraph?.heading}
           className="text-2xl md:text-4xl text-olive font-bold"

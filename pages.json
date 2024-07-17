@@ -8,7 +8,7 @@
           "sectionType": "sliderLayout",
           "image": {
             "imageAlt": "This is a test image",
-            "imageSrc": "https://images.unsplash.com/photo-1573496130407-57329f01f769?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "imageSrc": "https://images.pexels.com/photos/5439381/pexels-photo-5439381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "width": "100%",
             "height": "400"
           },
@@ -25,7 +25,40 @@
           "sectionType": "twoColumnLayout",
           "image": {
             "imageAlt": "This is a test image",
-            "imageSrc": "https://placehold.co/600x400",
+            "imageSrc": "https://images.pexels.com/photos/443383/pexels-photo-443383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": "100%",
+            "height": "100%"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "WHO WE ARE"
+            },
+            "children": "At Nsonga HR Consulting, we transcend the conventional role of a human resources organization. We are architects of transformation, specializing in executive search, contract placements, resourcing, recruitment process outsourcing, and bespoke recruitment solutions.\n\nWith a cumulative experience of over 40 years, our team has collaborated with prestigious national, regional, and multinational entities, delivering unparalleled results. \n\nFounded by the esteemed Thembi Nkosi, whose distinguished career spans over two decades in the recruitment industry, Nsonga exemplifies the art of discernment."
+          }
+        },
+        {
+          "sectionType": "twoColumnLayout",
+          "imageFirst": true,
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://images.pexels.com/photos/5922673/pexels-photo-5922673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": "100%",
+            "height": "100%"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "OUR CORE COMPETENCY"
+            },
+            "children": "Our core competency lies in the identification and acquisition of scarce skills, the seamless execution of managerial and executive placements, the management of HR special projects, and the facilitation of comprehensive developmental training initiatives. Through years of meticulous refinement, we have perfected our strategies, establishing genuine connections that resonate profoundly with both our clients and candidates."
+          }
+        },
+        {
+          "sectionType": "twoColumnLayout",
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://images.pexels.com/photos/5439469/pexels-photo-5439469.jpeg?auto=compress&cs=tinysrgb&w=600",
             "width": "100%",
             "height": "100%"
           },
@@ -34,7 +67,235 @@
               "size": "h1",
               "children": "OUR APPROACH"
             },
-            "children": "We meticulously select candidates who seamlessly integrate with diverse organizational cultures, ensuring optimal fit and long-term success. In an era marked by intense talent competition and persistent retention challenges, Nsonga has strategically positioned itself as the premier partner for strategic talent acquisition. Our role transcends traditional recruitment; we serve as trusted advisors to hiring decision-makers, providing invaluable insights and guidance on all facets of talent acquisition and management. As organizations navigate the complexities of an ever-evolving"
+            "children": "We meticulously select candidates who seamlessly integrate with diverse organizational cultures, ensuring optimal fit and long-term success. In an era marked by intense talent competition and persistent retention challenges, Nsonga has strategically positioned itself as the premier partner for strategic talent acquisition.\n\nOur role transcends traditional recruitment; we serve as trusted advisors to hiring decision-makers, providing invaluable insights and guidance on all facets of talent acquisition and management. As organizations navigate the complexities of an ever-evolving global landscape, Nsonga stands as a beacon of excellence, empowering clients to thrive amidst uncertainty and seize opportunities for growth."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Nsonga Home Page",
+      "slug": "/services",
+      "sections": [
+        {
+          "sectionType": "sliderLayout",
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://images.pexels.com/photos/3760093/pexels-photo-3760093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": "100%",
+            "height": "400"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "Our Services"
+            },
+            "children": "",
+            "className": ""
+          }
+        },
+        {
+          "sectionType": "twoColumnLayout",
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": "100%",
+            "height": "100%"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "EXECUTIVE SEARCH"
+            },
+            "children": "Nsongas team boasts over 40 years of collective experience in Executive Search, showcasing a remarkable history of placing top-tier candidates on a global scale. Our Executive Consultants, spread across the globe, have successfully undertaken prestigious assignments across diverse industries, boasting a flawless track record in securing highly sought-after skills. Leveraging innovative in-house tools, Nsonga maintains an impressive placement ratio, underscoring our commitment to delivering results regardless of the challenge.\n\nRecognizing the unique needs of each client, Nsonga acknowledges the evolving landscape of business environments, marked by factors such as AI, globalization, and the pervasive influence of ICT. These elements contribute to the heightened unpredictability and dynamism of the business world, prompting a shift towards creative hiring strategies. Nsonga remains at the forefront of this transformation, offering a solid international network for cross-border placements, thereby enhancing the agility of talent acquisition processes.\n\nAs the trusted strategic search partner for our clients, we specialize in identifying visionary leaders who are equipped to navigate the complexities of today&#39;s business landscape, driving sustainable success and growth."
+          }
+        },
+        {
+          "sectionType": "twoColumnLayout",
+          "imageFirst": true,
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://images.pexels.com/photos/261679/pexels-photo-261679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": "100%",
+            "height": "100%"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "CONTRACTING & RESOURCING"
+            },
+            "children": "Every recruitment project, from its inception to completion, presents an opportunity to deliver exceptional results that surpass expectations. Given the tight mandates for delivery, businesses are under immense pressure to excel within strict timelines. This reflects the demands of the current market and the intense competition for talent. Our talent acquisition specialists are dedicated to meeting these challenges head-on.\n\nOur well-established prestige and extensive network empower us to draw in high-calibre talent. Through our thorough evaluation process, we ascertain that candidates not only meet but exceed the criteria in terms of skills, experience, and cultural alignment. We utilize explicit matching models and cutting-edge technology to ensure person-job fit and person-organization fit. As the saying goes, \"The best predictor of future behaviour is past behaviour\"\n\nWe excel in rapid project execution, achieving a harmonious balance between speed and quality. We offer the industry&#39;s most robust satisfaction guarantee, firmly standing behind our work and providing peace of mind to our clients. Through targeted research and analysis of key factors such as market dynamics, industry trends, competitor strategies, and technological advancements, we implement a streamlined process that produces outstanding outcomes. We deploy our top-tier experts to meticulously nurture robust client relationships, ensuring not only timely but also exemplary delivery. With our track record of successfully executing flagship recruitment projects, we have honed our focus on efficacy, efficiency, and, most importantly, achieving measurable outcomes in our methodology getting it right first time."
+          }
+        },
+        {
+          "sectionType": "twoColumnLayout",
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://images.pexels.com/photos/7948099/pexels-photo-7948099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": "100%",
+            "height": "100%"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "TALENT MAPPING AND MARKET RESEARCH"
+            },
+            "children": "Our clients increasingly recognize the significance of proactive recruitment as an integral component of talent acquisition, essential for maintaining a competitive edge. They no longer wait for vacancies to arise but instead engage with potential candidates in advance.\n\nThroughout the years, we have played a pivotal role in supporting clients by delivering real- time market intelligence encompassing candidate availability, skills, qualifications, salaries, geographical locations, employment history and industry trends. Our approach integrates market research, enabling us to gather and analyse data pertaining to specific markets and industries. This comprehensive insight empowers us to provide strategic advice on talent acquisition, growth opportunities, and competitor expansion. Moreover, our services aid clients in mitigating risks and adapting to evolving workforce conditions."
+          }
+        },
+        {
+          "sectionType": "twoColumnLayout",
+          "imageFirst": true,
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": "100%",
+            "height": "100%"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "JOB ANALYSIS AND PROFILING"
+            },
+            "children": "We recognize that jobs form the bedrock of any organization, serving as the cornerstone for achieving high-quality performance and gaining a competitive edge in the market. In today's rapidly evolving business landscape, jobs are subject to dynamic shifts influenced by both internal and external factors, necessitating a flexible approach to job analysis.\n\nOur team of experts specializes in conducting comprehensive job analyses and crafting bespoke job profiles tailored to your organization's unique needs. By understanding and aligning job requirements with qualified individuals, we empower organizations to adapt to changing market demands while maintaining their competitive advantage.\n\nWe leverage cutting-edge technology to collect and analyse crucial information about job tasks, responsibilities, and contexts. This eticulous approach ensures that our job descriptions and specifications accurately reflect the evolving nature of roles within your organization, enabling you to attract and retain top talent effectively."
+          }
+        },
+        {
+          "sectionType": "twoColumnLayout",
+          "fullWidth": true,
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://placehold.co/600x400",
+            "width": "100%",
+            "height": "100%"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "RECRUITMENT PROCESS OUTSOURCING (RPO)"
+            },
+            "children": "Recruitment Process Outsourcing (RPO) is a comprehensive service we offer to streamline and enhance the recruitment process for organizations of all sizes. As a trusted partner, we assume responsibility for managing some or all aspects of the recruitment process on behalf of our clients. Our RPO service begins with a thorough understanding of our client's unique requirements, culture, and business objectives. We collaborate closely with key stakeholders to develop a tailored recruitment strategy aligned with their goals. Key features of our RPO service include:\n\n1. End-to-End Recruitment Support: We handle every stage of the recruitment lifecycle, from job profiling and candidate sourcing to on boarding and post-placement support.\n2. Customized Solutions: We design bespoke recruitment solutions tailored to each clients'specific industry, organizational structure, and talent requirements.\n3. Scalability and Flexibility: Our RPO solutions are scalable to accommodate fluctuating hiring needs, whether our clients require support for a single role or multiple positions across different departments.\n4. Access to Cutting-Edge Technology: We leverage advanced recruitment technology and tools to enhance efficiency, accuracy, and candidate engagement throughout the process.\n5. Dedicated Account Management: Each client receives personalized support from a dedicated account manager who serves as the primary point of contact, providing regular updates, performance metrics, and strategic guidance. \n6. Compliance and Quality Assurance: Our RPO service ensures adherence to legal and regulatory requirements, industry best practices, and quality standards, mitigating risk and ensuring consistent outcomes\n7. Continuous Improvement: We believe in continuous improvement and regularly review and refine our processes to optimize performance, enhance candidate experience, and drive positive business outcomes for our clients. By outsourcing your recruitment function to us, your organisation can benefit from cost savings, time efficiencies, access to top talent, and improved quality of hires. Our RPO service is designed to empower our clients to focus on their core business activities while we handle their recruitment needs with professionalism, expertise, and dedication."
+          }
+        },
+        {
+          "sectionType": "twoColumnLayout",
+          "fullWidth": true,
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://placehold.co/600x400",
+            "width": "100%",
+            "height": "100%"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "LEADERSHIP NEXUS: BOARD & INTERIM PLACEMENTS"
+            },
+            "children": "Welcome to Nsonga's Leadership Nexus, where we specialize in Board & Interim Placements that drive organizational excellence. With over a decade of experience in the executive search industry, our Managing Director has cultivated a vast network of Board Members, ensuring access to top-tier talent with proven track records of leadership and strategic decision-making. Our extensive database features a diverse range of Board Members, each equipped with a rich history of board service and a commitment to driving organizational success. Whether you're seeking local expertise or global perspectives, Nsonga is poised to connect you with the ideal Board Member to propel your organization forward. In the realm of Interim Executive Placements, Nsonga offers unparalleled expertise in sourcing top-notch talent for immediate deployment. Our robust database is meticulously curated and continuously refreshed to meet the dynamic demands of our clients, ensuring access to highly skilled executives who are ready to hit the ground running. With a keen understanding of the urgency often associated with interim placements, we prioritize efficiency and precision in our candidate selection process, delivering tailored solutions that align seamlessly with our clients'; needs and objectives.\\nPartner with Nsonga to secure interim executives who bring expertise, agility, and a proven track record of driving results.\n\nWe understand that leadership transitions are critical moments for organizations, and we are committed to providing comprehensive support throughout the entire placement process. From initial consultation to candidate selection and beyond, our team of experienced consultants leverages industry insights, market intelligence, and a deep understanding of organizational dynamics to facilitate successful placements that drive long-term success. With Nsonga&#39;s Leadership Nexus, you can trust that your organization is in capable hands, poised for growth, innovation, and sustainable success."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Nsonga Home Page",
+      "slug": "/industries",
+      "sections": [
+        {
+          "sectionType": "sliderLayout",
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://images.pexels.com/photos/209251/pexels-photo-209251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": "100%",
+            "height": "400"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "Industries we serve"
+            },
+            "children": "",
+            "className": ""
+          }
+        },
+        {
+          "sectionType": "twoColumnLayout",
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": "100%",
+            "height": "100%"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "FINANCIAL SERVICES"
+            },
+            "children": "- Insurance\n- Banking\n- SME Micro Finance \n\nDevelopment Finance Institutions Nsonga brings to the table specialized knowledge and expertise finely attuned to the distinct requirements of the financial industry. We possess a keen understanding of the intricate dynamics of financial markets, regulatory landscapes, and the multifaceted roles within the sector. Our teams have demonstrated prowess in pinpointing top-tier talent across various echelons of the financial services realm, including executives, senior managers, and specialized professionals. Leveraging this expertise, we offer our clients invaluable insights into prevailing market trends, industry shifts, and the evolving talent landscape within financial services. With a global footprint extending across multiple geographies, we seamlessly tap into a diverse talent pool, empowering clients with opportunities for international expansion and strategic growth initiatives. This expansive reach underscores our commitment to delivering tailored solutions that address the unique needs and aspirations of our clients within the financial services sector."
+          }
+        },
+        {
+          "sectionType": "twoColumnLayout",
+          "imageFirst": true,
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": "100%",
+            "height": "100%"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "INFRASTRUCTURE & CONSTRUCTION"
+            },
+            "children": "Nsonga is proud to contribute to infrastructure development on a global scale, assisting clients in projects spanning across various regions and countries. we develop executive search solutions tailored specifically for the infrastructure and construction industry. with a deep understanding of the unique demands and complexities of this sector, we have been successful in identifying top-tier talent to meet our clients' needs. Our seasoned team possesses extensive experience and expertise in recruiting for various roles within infrastructure and construction, including project managers, contracts managers, engineers, architects, site supervisors and agents. We leverage our industry knowledge and expansive network to source candidates who possess the requisite skills, experience, and cultural fit to drive success for our clients.\n\nThrough meticulous candidate screening and assessment processes, we ensure that only the most qualified individuals are presented to our clients. Whether our clients are seeking to fill leadership positions or specialized technical roles, we are committed to delivering exceptional talent solutions that exceed expectations. \n\nWe understand the critical role that talent plays in the success of infrastructure and construction projects. that's why we partner closely with our clients to understand their unique requirements and provide strategic guidance throughout the recruitment process. With our unwavering commitment to excellence and dedication to client satisfaction, we are the trusted partner for executive search in the infrastructure and construction industry."
+          }
+        },
+        {
+          "sectionType": "twoColumnLayout",
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://images.pexels.com/photos/5847362/pexels-photo-5847362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": "100%",
+            "height": "100%"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "STATE OWNED ENTERPRISES"
+            },
+            "children": " We take pride in our extensive experience and successful track record in placing top-tier candidates within State-Owned Enterprises (SOEs). Collaborating closely with Boards and Deputy Directors-General (DDGs), we specialize in sourcing and securing candidates for key strategic roles that drive excellence within South Africa's public economic system.\n\nOur dedicated team possesses deep expertise in navigating the intricacies of the public sector landscape, ensuring that we identify candidates who not only meet the strategic and technical requirements of the role but also align with the vision and values of the organization. We understand the critical importance of placing individuals who possess the right blend of skills, experience, and leadership qualities to effect positive change and drive sustainable growth within SOEs. \n\nThrough our meticulous approach to executive search, we have forged strong partnerships with leading SOEs across various industries. Our commitment to excellence and our ability to deliver exceptional results have positioned us as a trusted partner in the recruitment and placement of top talent within the public sector.\n\nWe are dedicated to contributing to the advancement of South Africa&#39;s public economic system by connecting organizations with the visionary leaders who will shape its future."
+          }
+        },
+        {
+          "sectionType": "twoColumnLayout",
+          "imageFirst": true,
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://images.pexels.com/photos/70912/pexels-photo-70912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": "100%",
+            "height": "100%"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "AUTOMOTIVES"
+            },
+            "children": "Nsonga leverages its specialized expertise to cater to the automotive sector, comprehending its distinct intricacies and demands. Our established track record extends to collaborating with prominent automotive entities, spanning manufacturers to suppliers, in sourcing top-tier talent for pivotal positions that foster innovation and propel growth.\n\nWith a deep-seated understanding of the automotive industry's fluid landscape, we engage closely with our clientele to pinpoint and secure candidates embodying the requisite skills and expertise essential for success in this dynamic arena. Whether it pertains to engineering and design, manufacturing and production, sales and marketing, supply chain and logistics, research and development, or after-sales service, our focus lies in placing executives and seasoned professionals adept at navigating the automotive market's multifaceted terrain to drive tangible impact.\n\nEmpowered by a global network and profound industry insights, we furnish clients with access to a diverse talent pool, ensuring they possess the requisite human capital to maintain a competitive edge. Be it scouting for visionary leaders to spearhead novel ventures, enlisting technical virtuosos to spearhead product development, or identifying sales experts to drive revenue growth, our commitment remains unwavering in delivering superlative outcomes that propel our clients' triumphs within the automotive sector.\n\nOur ethos revolves around fostering innovation and excellence within the automotive domain, all while forging lasting partnerships that transcend the ordinary."
+          }
+        },
+        {
+          "sectionType": "twoColumnLayout",
+          "image": {
+            "imageAlt": "This is a test image",
+            "imageSrc": "https://images.pexels.com/photos/2101137/pexels-photo-2101137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": "100%",
+            "height": "100%"
+          },
+          "paraGraph": {
+            "heading": {
+              "size": "h1",
+              "children": "MINING"
+            },
+            "children": "Nsonga brings its expertise to the mining sector, offering tailored solutions to meet the unique demands of this dynamic industry. With a deep understanding of the complexities of mining operations, regulatory compliance, and specialized roles within the sector, we excel in identifying top talent across various functions. We leverage our extensive network and industry insights to help clients navigate market challenges and secure top-tier talent for their projects. We&#39;re committed to driving excellence and innovation in the mining industry through strategic talent acquisition and placement."
           }
         }
       ]
@@ -45,20 +306,9 @@
       "sections": [
         {
           "sectionType": "jobListing",
-          "availableJobs": [
-            {
-              "title": "Strategic Planning, Monitoring, and Evaluation Manager",
-              "description": " This role, reporting directly to the Accounting Officer, is crucial for the development and implementation of governance processes, and the monitoring, evaluation, and reporting of organizational performance",
-              "link": "/jobs-newjob",
-              "shortDescription": "string"
-            }
-          ]
+          "availableJobs": []
         }
       ]
-    },
-    {
-      "title": "Nsonga About Us",
-      "slug": "/about"
     },
     {
       "title": "Nsonga Job Description",
