@@ -33,9 +33,11 @@ const Footer: FunctionComponent<FooterProps> = async ({
           <div className="flex flex-col mb-6">
             {sitePaths.map((path, index) => (
               <>
-                <AnyCTA key={index} type="link" title={path} link={path}>
-                  {formatPath(path)}
-                </AnyCTA>
+                {!path.includes("/jobs-") && (
+                  <AnyCTA key={index} type="link" title={path} link={path}>
+                    {formatPath(path)}
+                  </AnyCTA>
+                )}
               </>
             ))}
           </div>

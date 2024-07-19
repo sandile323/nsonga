@@ -67,7 +67,7 @@
               "size": "h1",
               "children": "OUR APPROACH"
             },
-            "children": "We meticulously select candidates who seamlessly integrate with diverse organisational cultures, ensuring optimal fit and long-term success. In an era marked by intense talent competition and persistent retention challenges, Nsonga has strategically positioned itself as the premier partner for strategic talent acquisition.\n\nOur role transcends traditional recruitment; we serve as trusted advisors to hiring decision-makers, providing invaluable insights and guidance on all facets of talent acquisition and management. As organizations navigate the complexities of an ever-evolving global landscape, Nsonga stands as a beacon of excellence, empowering clients to thrive amidst uncertainty and seize opportunities for growth."
+            "children": "We meticulously select candidates who seamlessly integrate with diverse organisational cultures, ensuring optimal fit and long-term success. In an era marked by intense talent competition and persistent retention challenges, Nsonga has strategically positioned itself as the premier partner for strategic talent acquisition.\n\nOur role transcends traditional recruitment we serve as trusted advisors to hiring decision-makers, providing invaluable insights and guidance on all facets of talent acquisition and management. As organizations navigate the complexities of an ever-evolving global landscape, Nsonga stands as a beacon of excellence, empowering clients to thrive amidst uncertainty and seize opportunities for growth."
           }
         }
       ]
@@ -190,7 +190,7 @@
               "size": "h1",
               "children": "LEADERSHIP NEXUS: BOARD & INTERIM PLACEMENTS"
             },
-            "children": "Welcome to Nsonga's Leadership Nexus, where we specialise in Board & Interim Placements that drive organizational excellence. With over a decade of experience in the executive search industry, our Managing Director has cultivated a vast network of Board Members, ensuring access to top-tier talent with proven track records of leadership and strategic decision-making. Our extensive database features a diverse range of Board Members, each equipped with a rich history of board service and a commitment to driving organisational success. Whether you're seeking local expertise or global perspectives, Nsonga is poised to connect you with the ideal Board Member to propel your organisation forward. In the realm of Interim Executive Placements, Nsonga offers unparalleled expertise in sourcing top-notch talent for immediate deployment. Our robust database is meticulously curated and continuously refreshed to meet the dynamic demands of our clients, ensuring access to highly skilled executives who are ready to hit the ground running. With a keen understanding of the urgency often associated with interim placements, we prioritise efficiency and precision in our candidate selection process, delivering tailored solutions that align seamlessly with our clients'; needs and objectives.\nPartner with Nsonga to secure interim executives who bring expertise, agility, and a proven track record of driving results.\n\nWe understand that leadership transitions are critical moments for organisations, and we are committed to providing comprehensive support throughout the entire placement process. From initial consultation to candidate selection and beyond, our team of experienced consultants leverages industry insights, market intelligence, and a deep understanding of organisational dynamics to facilitate successful placements that drive long-term success. With Nsonga's Leadership Nexus, you can trust that your organisation is in capable hands, poised for growth, innovation, and sustainable success."
+            "children": "Welcome to Nsonga's Leadership Nexus, where we specialise in Board & Interim Placements that drive organizational excellence. With over a decade of experience in the executive search industry, our Managing Director has cultivated a vast network of Board Members, ensuring access to top-tier talent with proven track records of leadership and strategic decision-making. Our extensive database features a diverse range of Board Members, each equipped with a rich history of board service and a commitment to driving organisational success. Whether you're seeking local expertise or global perspectives, Nsonga is poised to connect you with the ideal Board Member to propel your organisation forward. In the realm of Interim Executive Placements, Nsonga offers unparalleled expertise in sourcing top-notch talent for immediate deployment. Our robust database is meticulously curated and continuously refreshed to meet the dynamic demands of our clients, ensuring access to highly skilled executives who are ready to hit the ground running. With a keen understanding of the urgency often associated with interim placements, we prioritise efficiency and precision in our candidate selection process, delivering tailored solutions that align seamlessly with our clients' needs and objectives.\nPartner with Nsonga to secure interim executives who bring expertise, agility, and a proven track record of driving results.\n\nWe understand that leadership transitions are critical moments for organisations, and we are committed to providing comprehensive support throughout the entire placement process. From initial consultation to candidate selection and beyond, our team of experienced consultants leverages industry insights, market intelligence, and a deep understanding of organisational dynamics to facilitate successful placements that drive long-term success. With Nsonga's Leadership Nexus, you can trust that your organisation is in capable hands, poised for growth, innovation, and sustainable success."
           }
         }
       ]
@@ -306,7 +306,65 @@
       "sections": [
         {
           "sectionType": "jobListing",
-          "availableJobs": []
+          "availableJobs": [
+            {
+              "title": "Interim Executive",
+              "description": "Elevate Your Impact as an Interim Executive with Nsonga HR Consulting\n\nAre you a seasoned executive ready to bring your expertise to dynamic new challenges across industries? Nsonga HR Consulting is seeking accomplished interim executives to join our network of elite professionals who drive change and deliver results in today's fast-paced business world.",
+              "link": "/jobs-interim-executive"
+            },
+            {
+              "title": "Senior Project Manager",
+              "description": "Our client, a leading construction company renowned for its innovative projects across Africa, is seeking an experienced Senior Project Manager to join their team. This is a unique opportunity to lead major construction initiatives and make a significant impact in the industry.",
+              "link": "/jobs-senior-project-manager"
+            },
+            {
+              "title": "Senior Project Manager",
+              "description": "Our client, a leading construction company known for delivering innovative and high-quality projects across Africa, is seeking an experienced Senior Site Engineer to join their expanding team. This role offers a chance to play a key part in shaping some of the continent's most exciting construction projects.",
+              "link": "/jobs-senior-site-engineer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nsonga Job Description",
+      "slug": "/jobs-interim-executive",
+      "sections": [
+        {
+          "sectionType": "JobLayout",
+          "job": {
+            "title": "Interim Executive",
+            "description": "Elevate Your Impact as an Interim Executive with Nsonga HR Consulting Are you a seasoned executive ready to bring your expertise to dynamic new challenges across industries? Nsonga HR Consulting is seeking accomplished interim executives to join our network of elite professionals who drive change and deliver results in today's fast-paced business world.\n\nAt Nsonga, we specialise in connecting top-tier interim executives with organisations that require strategic leadership and transformative insights. Whether you have experience in finance, operations, IT, marketing, or any other business unit, your skills are in demand.\n\nWhy Partner with Nsonga?\n\nDiverse Opportunities: Engage in projects that match your expertise and passion across various industries.Strategic Roles: Take on leadership positions that require immediate impact and strategic decision-making.Flexible Engagements: Enjoy the freedom of interim roles with the opportunity to make a significant impact.Join a community of experienced leaders who thrive on challenge and innovation. Contact our Executive Recruiter, Thembi Nkosi, today to explore how your expertise can make a difference.",
+            "link": "https://za.indeed.com/job/interim-executive-e84f5cb7c56f9444"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Nsonga Job Description",
+      "slug": "/jobs-senior-project-manager",
+      "sections": [
+        {
+          "sectionType": "JobLayout",
+          "job": {
+            "title": "Senior Project Manager",
+            "description": "Our client, a leading construction company renowned for its innovative projects across Africa, is seeking an experienced Senior Project Manager to join their team. This is a unique opportunity to lead major construction initiatives and make a significant impact in the industry. \n\nAbout the Role\n\nAs a Senior Project Manager, you will be instrumental in overseeing large-scale construction projects from concept to completion. You will ensure that projects are delivered on time, within budget, and to the highest quality standards, leveraging your extensive experience in the African construction sector.\n\nKey Responsibilities\n\nLead and manage all phases of construction projects, ensuring alignment with client goals and expectations.\nDevelop comprehensive project plans, schedules, and budgets, and ensure strict adherence to them.\nCoordinate with architects, engineers, contractors, and stakeholders to ensure seamless project execution.\nEnsure compliance with health and safety regulations and industry standards.\nMonitor project progress, identify risks, and implement effective mitigation strategies.\nBuild and maintain strong relationships with clients, suppliers, and project teams.\nProvide leadership and direction to project teams, fostering a culture of excellence and innovation.\n\nQualifications and Experience\n\nBachelor's degree in Civil Engineering, Construction Management, or a related field. A Masters degree is a plus.\n10+ years of project management experience in the construction industry, with at least 5 years in a senior role.\nProven track record of managing large-scale construction projects across Africa.\nStrong understanding of construction regulations, standards, and best practices in Africa.\nExceptional leadership, communication, and negotiation skills.\nDemonstrated ability to deliver projects on time and within budget.\nPMP or other relevant project management certification is preferred.\n\nWhy Join Our Client?\n\nContribute to high-impact projects that transform communities and infrastructure.\nBe part of a dynamic and innovative company that values excellence and creativity.\nWork in a collaborative environment that supports your professional growth and development.\nApplication Process\n\nIf you have the expertise and ambition to lead groundbreaking construction projects in Africa, we encourage you to apply.",
+            "link": "https://za.indeed.com/job/senior-project-manager-6c896c093022d25d"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Senior Site Engineer",
+      "slug": "/jobs-senior-site-engineer",
+      "sections": [
+        {
+          "sectionType": "JobLayout",
+          "job": {
+            "title": "Interim Executive",
+            "description": "Our client, a leading construction company known for delivering innovative and high-quality projects across Africa, is seeking an experienced Senior Site Engineer to join their expanding team. This role offers a chance to play a key part in shaping some of the continent's most exciting construction projects.\n\nAbout the Role\n\nAs a Senior Site Engineer, you will be responsible for the management and oversight of construction site activities, ensuring that projects are executed smoothly and meet all quality and safety standards. Your experience and expertise in the African construction landscape will be essential in driving project success.\n\nKey Responsibilities\n\nOversee day-to-day operations on construction sites, ensuring adherence to project plans and specifications.\nCoordinate with project managers, architects, and subcontractors to ensure timely and efficient project delivery.\nEnsure all site activities comply with health and safety regulations and industry standards.\nConduct regular site inspections and audits to ensure quality control and address any issues that arise.\nManage site documentation, including reports, drawings, and technical specifications.\nMentor and guide junior engineers and site staff, promoting best practices and continuous improvement.\nResolve any technical or engineering challenges that occur on-site.\n\nQualifications and Experience\n\nBachelor's degree in Civil Engineering, Construction Management, or a related field.\n8+ years of experience in site engineering within the construction industry, with significant experience on projects in Africa.\nStrong knowledge of construction processes, materials, and legal regulations in Africa.\nExcellent problem-solving skills and attention to detail.\nStrong communication and leadership abilities.\nAbility to work under pressure and manage multiple tasks simultaneously.\n\nWhy Join Our Client?\n\nBe a part of high-impact projects that define modern infrastructure in Africa.\nWork with a company that values innovation, quality, and sustainability.\nJoin a supportive and collaborative team that invests in your professional growth and development.\nIf you are ready to take on an exciting challenge and advance your career as a Senior Site Engineer, we want to hear from you.",
+            "link": "https://za.indeed.com/job/interim-executive-e84f5cb7c56f9444"
+          }
         }
       ]
     }

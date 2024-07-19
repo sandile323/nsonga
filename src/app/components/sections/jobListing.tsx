@@ -21,7 +21,7 @@ const JobListing: FunctionComponent<JobListingProps> = ({ availableJobs }) => {
       {availableJobs && availableJobs.length > 0 ? (
         availableJobs.map((job, index) => (
           <div
-            className="relative pl-2 border-l-4 border-olive custom-w-job"
+            className="relative pl-2 border-l-4 border-olive custom-w-job mb-16"
             key={index}
           >
             <Heading
