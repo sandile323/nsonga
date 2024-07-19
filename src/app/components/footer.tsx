@@ -21,11 +21,11 @@ interface SocialLinks {
   link: string;
 }
 
-const Footer: FunctionComponent<FooterProps> = async ({
+const Footer: FunctionComponent<FooterProps> = ({
   socialLinks,
   legalLinks,
 }) => {
-  const sitePaths: string[] = await GetSitePaths();
+  const sitePaths: string[] = GetSitePaths();
   return (
     <>
       <footer className="bg-darkishblue px-2 py-8">
