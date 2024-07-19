@@ -27,7 +27,7 @@ const Header: FunctionComponent<HeaderProps> = ({ sitePaths }) => {
 
       <div>
         <div
-          className="z-30 fixed top-20 right-4 cursor-pointer md:hidden"
+          className="z-30 fixed top-20 right-4 cursor-pointer md:hidden bg-white p-1 border"
           onClick={toggleMenu}
         >
           {!isOpen ? <Menu /> : <CloseBtn />}
