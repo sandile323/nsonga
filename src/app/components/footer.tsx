@@ -41,7 +41,7 @@ const Footer: FunctionComponent<FooterProps> = ({
               </>
             ))}
           </div>
-          <div className="flex  mb-6">
+          <div className="flex  mb-6 hidden">
             {socialLinks &&
               socialLinks.length > 0 &&
               socialLinks.map((socialLink, index) => (
