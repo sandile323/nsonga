@@ -30,12 +30,12 @@ const JobListing: FunctionComponent<JobListingProps> = ({ availableJobs }) => {
             >
               {job.title}
             </Heading>
-            <Paragraph className="mb-2">{job.description}</Paragraph>
+            <Paragraph className="mb-6">{job.description}</Paragraph>
             <AnyCTA
               title={job.title}
               link={job.link}
               type={"link"}
-              className=""
+              className=" border-2  border-olive  inline  py-2 px-4 mt-4"
             >
               Learn More
             </AnyCTA>
