@@ -5,6 +5,7 @@ import FacebookIcon from "./socialIcons/facebook";
 import WhatsAppIcon from "./socialIcons/whatsApp";
 import InstagramIcon from "./socialIcons/instagram";
 import LinkedInIcon from "./socialIcons/linkedIn";
+import Picture from "./image";
 
 export interface FooterProps {
   socialLinks?: SocialLinks[];
@@ -41,7 +42,16 @@ const Footer: FunctionComponent<FooterProps> = ({
               </>
             ))}
           </div>
-          <div className="flex  mb-6 hidden">
+          <div className="mb-6">
+            <Picture
+              className="md:px-3"
+              imageSrc="https://i.ibb.co/cyGSdS0/aspo-logo.jpg"
+              imageAlt=""
+              width="200px"
+              height="auto"
+            />
+          </div>
+          <div className=" mb-6 hidden">
             {socialLinks &&
               socialLinks.length > 0 &&
               socialLinks.map((socialLink, index) => (
