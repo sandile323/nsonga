@@ -308,6 +308,21 @@
           "sectionType": "jobListing",
           "availableJobs": [
             {
+              "title": "Legal Advisor - Corporate Legal",
+              "description": "Our client, a leading entity in the asset management sector, is seeking to appoint a Legal Advisor to provide legal advice on general corporate and commercial law matters and other legal advisory services.",
+              "link": "/jobs-legal-advisor-corporate-legal"
+            },
+            {
+              "title": "Environmental, Social, and Governance (ESG) Associate",
+              "description": "We are seeking a dedicated and knowledgeable Environmental, Social, and Governance (ESG) Associate to join our dynamic team. This role is essential in ensuring that ESG principles are integrated into our investment decision-making process. You will contribute to the long-term goal of improved stewardship and sustainability of investee companies.",
+              "link": "/jobs-environment-social-and-governance-associate"
+            },
+            {
+              "title": "Global Board Member Opportunities",
+              "description": "Are you an experienced board member looking to expand your horizons and impact on a global scale? Nsonga HR Consulting invites you to explore exclusive board opportunities in South Africa and around the world.",
+              "link": "/jobs-board-opportunities"
+            },
+            {
               "title": "Interim Executive",
               "description": "Elevate Your Impact as an Interim Executive with Nsonga HR Consulting\n\nAre you a seasoned executive ready to bring your expertise to dynamic new challenges across industries? Nsonga HR Consulting is seeking accomplished interim executives to join our network of elite professionals who drive change and deliver results in today's fast-paced business world.",
               "link": "/jobs-interim-executive"
@@ -321,21 +336,6 @@
               "title": "Senior Site Engineer",
               "description": "Our client, a leading construction company known for delivering innovative and high-quality projects across Africa, is seeking an experienced Senior Site Engineer to join their expanding team. This role offers a chance to play a key part in shaping some of the continent's most exciting construction projects.",
               "link": "/jobs-senior-site-engineer"
-            },
-            {
-              "title": "Global Board Member Opportunities",
-              "description": "Are you an experienced board member looking to expand your horizons and impact on a global scale? Nsonga HR Consulting invites you to explore exclusive board opportunities in South Africa and around the world.",
-              "link": "/jobs-board-opportunities"
-            },
-            {
-              "title": "Environmental, Social, and Governance (ESG) Associate",
-              "description": "We are seeking a dedicated and knowledgeable Environmental, Social, and Governance (ESG) Associate to join our dynamic team. This role is essential in ensuring that ESG principles are integrated into our investment decision-making process. You will contribute to the long-term goal of improved stewardship and sustainability of investee companies.",
-              "link": "/jobs-environment-social-and-governance-associate"
-            },
-            {
-              "title": "Legal Advisor - Corporate Legal",
-              "description": "Our client, a leading entity in the asset management sector, is seeking to appoint a Legal Advisor to provide legal advice on general corporate and commercial law matters and other legal advisory services.",
-              "link": "/jobs-legal-advisor-corporate-legal"
             }
           ]
         }
