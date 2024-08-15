@@ -22,7 +22,7 @@ const JobCard: FunctionComponent<JobProps> = ({ job }) => {
           type={"link"}
           className=" border-2  border-olive  inline  py-2 px-4 mt-4"
         >
-          Apply now on indeed
+          Apply here
         </AnyCTA>
       </div>
     </>
