@@ -18,9 +18,10 @@ const config: Config = {
         yellowish: "#CAAC46",
         iconYellow: "#C9AB43",
         olive: "#8A8A38",
+        lBrown: "#c9ac45",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 };
 export default config;

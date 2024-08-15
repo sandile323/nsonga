@@ -17,25 +17,24 @@ export interface JobListingProps extends section {
 
 const JobListing: FunctionComponent<JobListingProps> = ({ availableJobs }) => {
   return (
-    <div className="px-2 py-16">
+    <div className="px-2 py-16 flex flex-wrap justify-around ">
       {availableJobs && availableJobs.length > 0 ? (
         availableJobs.map((job, index) => (
           <div
-            className="relative pl-2 border-l-4 border-olive custom-w-job mb-16"
+            className="relative pl-2 border-2 px-6 py-5 border-lBrown mb-16 md:w-1/4 mr-2 rounded-2xl"
             key={index}
           >
-            <Heading
-              size="h2"
-              className="text-xl font-bold text-yellowish mb-2"
-            >
+            <Heading size="h2" className="text-xl font-bold  mb-2">
               {job.title}
             </Heading>
-            <Paragraph className="mb-6">{job.description}</Paragraph>
+            <Paragraph className="mb-6 my-5 line-clamp-4">
+              {job.description}
+            </Paragraph>
             <AnyCTA
               title={job.title}
               link={job.link}
               type={"link"}
-              className=" border-2  border-olive  inline  py-2 px-4 mt-4"
+              className=" text-white font-bold border-2  border-olive  inline  py-2 px-4 mt-4 rounded-xl bg-lBrown object-right-bottom"
             >
               Learn More
             </AnyCTA>
