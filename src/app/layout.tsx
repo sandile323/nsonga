@@ -21,7 +21,7 @@ export default function RootLayout({
   const sitePaths = GetSitePaths();
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} font-lora`}>
         <Header sitePaths={sitePaths} />
         {children}
         <Footer {...footerData} />
