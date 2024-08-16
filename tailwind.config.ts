@@ -1,3 +1,4 @@
+import { Lora } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -19,6 +20,9 @@ const config: Config = {
         iconYellow: "#C9AB43",
         olive: "#8A8A38",
         lBrown: "#c9ac45",
+      },
+      fontFamily: {
+        lora: ["Lora", "serif"],
       },
     },
   },
