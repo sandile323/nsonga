@@ -38,19 +38,15 @@ const JobListing: FunctionComponent<JobListingProps> = ({ availableJobs }) => {
               <div className="">
                 <div className="flex gap-3 mb-2">
                   <TimeIcon />
-                  <Heading
-                    size="h6"
-                    children={job.jobType ? job.jobType : "Full-time"}
-                    className="self-end text-sm"
-                  />
+                  <Heading size="h6" className="self-end text-sm">
+                    {job.jobType ? job.jobType : "Full-time"}
+                  </Heading>
                 </div>
                 <div className="flex gap-2">
                   <SalaryIcon />
-                  <Heading
-                    size="h6"
-                    children={job.salary ? job.salary : "Negotiable"}
-                    className="self-end text-sm"
-                  />
+                  <Heading size="h6" className="self-end text-sm">
+                    {job.salary ? job.salary : "Negotiable"}
+                  </Heading>
                 </div>
               </div>
               <AnyCTA
