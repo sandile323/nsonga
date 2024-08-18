@@ -32,7 +32,6 @@ export default function RootLayout({
           content="Nsonga, HR, Consulting, Recruitment, Human Resources, Nsgonahc, Jobs"
         />
         <meta name="author" content="Thembi Nkosi" />
-        <title>Nsonga HR Consulting</title>
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
