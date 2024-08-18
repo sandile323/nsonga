@@ -19,9 +19,10 @@ const JobCard: FunctionComponent<JobProps> = ({ job }) => {
         <AnyCTA
           title={job.title}
           link={
-            job.link + job.link.includes("mailTo")
+            job.link +
+            (job.link.includes("mailto")
               ? `?Subject=Application for ${job.title}`
-              : ""
+              : "")
           }
           type={"link"}
           className=" border-2  border-olive  inline  py-2 px-4 mt-4"
