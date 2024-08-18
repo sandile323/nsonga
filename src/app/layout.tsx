@@ -19,6 +19,7 @@ export default function RootLayout({
 }>) {
   const footerData = GetFooterData();
   const sitePaths = GetSitePaths();
+
   return (
     <html lang="en">
       <head>
@@ -33,6 +34,23 @@ export default function RootLayout({
           }}
         />
         {/* End Google Tag Manager */}
+
+        {/* Google Analytics */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-XFFYMH80GB"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-XFFYMH80GB');
+            `,
+          }}
+        />
+        {/* End Google Analytics */}
       </head>
       <body className={`${inter.className} font-lora`}>
         <noscript>
