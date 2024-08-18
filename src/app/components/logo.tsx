@@ -10,7 +10,6 @@ const NsongaLogo: FunctionComponent = () => {
       height="120"
       className="max-w-36 md:max-w-48"
     >
-      <title>Nsonga Logo</title>
       <defs>
         <image
           width="2769"

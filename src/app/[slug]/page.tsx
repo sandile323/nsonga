@@ -1,10 +1,26 @@
 import SectionCollection, { section } from "../components/section";
 import { FunctionComponent } from "react";
-import { GetSiteData } from "../utils";
-import Head from "next/head";
+import { formatPath, GetSiteData } from "../utils";
+import { Metadata } from "next";
 
 interface PageProps {
   params: { slug: string };
+}
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const slug = params.slug;
+  const jsonData = GetSiteData();
+  const pageData = jsonData.pages.find(
+    (page: any) => page.slug.replace("/", "") === slug
+  );
+  const pageTitle = formatPath(slug);
+
+  return {
+    title: `${pageTitle}`,
+    description: `${pageTitle} - Nsonga HR Consulting`,
+  };
 }
 
 const Page: FunctionComponent<PageProps> = ({ params }) => {
@@ -24,9 +40,6 @@ const Page: FunctionComponent<PageProps> = ({ params }) => {
 
   return (
     <>
-      <Head>
-        <title>{pageTitle} - Nsonga HR Consulting</title>
-      </Head>
       {pageData?.sections && pageData?.sections.length > 0 ? (
         <SectionCollection
           sections={pageData.sections as section[] | undefined}
