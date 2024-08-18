@@ -1,7 +1,7 @@
 import SectionCollection, { section } from "../components/section";
 import { FunctionComponent } from "react";
 import { GetSiteData } from "../utils";
-import DocumentTitle from "../components/documentTitle";
+import Head from "next/head";
 
 interface PageProps {
   params: { slug: string };
@@ -24,7 +24,9 @@ const Page: FunctionComponent<PageProps> = ({ params }) => {
 
   return (
     <>
-      <DocumentTitle title={pageTitle} />
+      <Head>
+        <title>{pageTitle} - Nsonga HR Consulting</title>
+      </Head>
       {pageData?.sections && pageData?.sections.length > 0 ? (
         <SectionCollection
           sections={pageData.sections as section[] | undefined}
