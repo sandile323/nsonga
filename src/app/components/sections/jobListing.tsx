@@ -45,7 +45,7 @@ const JobListing: FunctionComponent<JobListingProps> = ({ availableJobs }) => {
                 <div className="flex gap-2">
                   <SalaryIcon />
                   <Heading size="h6" className="self-end text-sm">
-                    {job.salary ? job.salary : "Negotiable"}
+                    {job.salary ? job.salary : "Market Related"}
                   </Heading>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const JobListing: FunctionComponent<JobListingProps> = ({ availableJobs }) => {
                 type={"link"}
                 className="self-center text-white font-bold border-2  border-lBrown  inline  py-2 px-4 mt-4 rounded-xl bg-lBrown hover:bg-white hover:text-lBrown hover:no-underline"
               >
-                Learn More
+                Apply
               </AnyCTA>
             </div>
           </div>
