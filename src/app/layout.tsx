@@ -23,6 +23,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta
+          name="description"
+          content="Nsonga Human Consulting is a recruitment company."
+        />
+        <meta
+          name="keywords"
+          content="Nsonga, HR, Consulting, Recruitment, Human Resources, Nsgonahc, Jobs"
+        />
+        <meta name="author" content="Thembi Nkosi" />
+        <title>Nsonga HR Consulting</title>
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
