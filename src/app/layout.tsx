@@ -26,7 +26,7 @@ export default function RootLayout({ children }: LayoutProps) {
           content="Nsonga, HR, Consulting, Recruitment, Human Resources, Nsgonahc, Jobs"
         />
         <meta name="author" content="Thembi Nkosi" />
-        {/* Google Tag Manager and Analytics scripts */}
+        p= {/* Google Tag Manager and Analytics scripts */}
       </head>
       <body className={`${inter.className} font-lora`}>
         <noscript>
