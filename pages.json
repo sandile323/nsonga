@@ -306,48 +306,7 @@
       "sections": [
         {
           "sectionType": "jobListing",
-          "availableJobs": [
-            {
-              "title": "Senior Development Manager - Property",
-              "description": "Nsonga HR Consulting is actively headhunting an experienced Development Manager on behalf of our client. The Development Manager will manage specific developments from inception to the delivery of a completed asset. A key focus of this role is ensuring innovations in resource efficiency, sustainability, and green developments. This role is integral to the project management execution of new development opportunities and the upgrading of our client's investment property assets.",
-              "link": "/jobs-senior-development-manager-johannesburg"
-            },
-            {
-              "title": "Quantitative Analyst",
-              "description": "Urgent Hiring: Quantitative Analyst - Financial Services Industry\n\nWe are urgently seeking a skilled Quantitative Analyst for our client in the financial services industry. This is an exciting opportunity to join a dynamic Research and Innovation team, where you'll play a key role in developing and optimizing quantitative models to drive investment success.",
-              "link": "/jobs-quantitative-analyst-johannesburg"
-            },
-            {
-              "title": "Legal Advisor - Corporate Legal",
-              "description": "Our client, a leading entity in the asset management sector, is seeking to appoint a Legal Advisor to provide legal advice on general corporate and commercial law matters and other legal advisory services.",
-              "link": "/jobs-legal-advisor-corporate-legal"
-            },
-            {
-              "title": "ESG Associate",
-              "description": "We are seeking a dedicated and knowledgeable Environmental, Social, and Governance (ESG) Associate to join our dynamic team. This role is essential in ensuring that ESG principles are integrated into our investment decision-making process. You will contribute to the long-term goal of improved stewardship and sustainability of investee companies.",
-              "link": "/jobs-environment-social-and-governance-associate"
-            },
-            {
-              "title": "Global Board Member Opportunities",
-              "description": "Are you an experienced board member looking to expand your horizons and impact on a global scale? Nsonga HR Consulting invites you to explore exclusive board opportunities in South Africa and around the world.",
-              "link": "/jobs-board-opportunities"
-            },
-            {
-              "title": "Interim Executive",
-              "description": "Elevate Your Impact as an Interim Executive with Nsonga HR Consulting\n\nAre you a seasoned executive ready to bring your expertise to dynamic new challenges across industries? Nsonga HR Consulting is seeking accomplished interim executives to join our network of elite professionals who drive change and deliver results in today's fast-paced business world.",
-              "link": "/jobs-interim-executive"
-            },
-            {
-              "title": "Senior Project Manager",
-              "description": "Our client, a leading construction company renowned for its innovative projects across Africa, is seeking an experienced Senior Project Manager to join their team. This is a unique opportunity to lead major construction initiatives and make a significant impact in the industry.",
-              "link": "/jobs-senior-project-manager"
-            },
-            {
-              "title": "Senior Site Engineer",
-              "description": "Our client, a leading construction company known for delivering innovative and high-quality projects across Africa, is seeking an experienced Senior Site Engineer to join their expanding team. This role offers a chance to play a key part in shaping some of the continent's most exciting construction projects.",
-              "link": "/jobs-senior-site-engineer"
-            }
-          ]
+          "availableJobs": []
         }
       ]
     },
