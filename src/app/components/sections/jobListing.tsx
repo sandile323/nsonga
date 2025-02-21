@@ -62,7 +62,7 @@ const JobListing: FunctionComponent<JobListingProps> = ({ availableJobs }) => {
         ))
       ) : (
         <Paragraph className="mb-4">
-          We currently have no job listings.
+          Check back here for upcoming job listings.
         </Paragraph>
       )}
     </div>
